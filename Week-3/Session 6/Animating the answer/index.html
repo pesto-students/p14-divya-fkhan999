@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+   <title>Question and Answer</title>
+   <style>
+      body {
+         font-family: Calibri, sans-serif;
+         font-size: 3em;
+      }
+
+      #answer {
+         color: black;
+         width: 100px;
+         position: relative;
+         animation: moveFraction 1s 2s;
+         animation-fill-mode: forwards;
+
+         /* Part of your solution goes here */
+
+      }
+
+      @keyframes moveFraction {
+         0% {
+            top: 60px;
+            left: -355px;
+         }
+
+         50% {
+            top: 60px;
+            left: 0px;
+         }
+
+         100% {
+            top: 0px;
+            left: 0px;
+            color: red;
+
+         }
+
+
+      }
+
+      /* moveFraction goes here */
+
+
+      #question {
+         transition-duration: 0.6s;
+         transition-timing-function: ease-in-out;
+         /* Part of your solution goes here */
+      }
+
+      #question:hover {
+         transform: scale(0.9);
+         /* Part of your solution goes here */
+
+      }
+
+      span {
+         display: inline-block;
+      }
+   </style>
+</head>
+
+<body>
+   <span id="question">Question: &frac14; + &frac12; =</span>
+   <span id="answer">&frac34;</span>
+</body>
+
+</html>
