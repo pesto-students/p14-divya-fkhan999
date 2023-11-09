@@ -1,42 +1,24 @@
 ## What is a protocol stack, and how is it used in web development?
 
-When data travels through the internet, it passes through multiple layers of protocols, each responsible for a specific task. For example:
-
-When we access a new website, your browser may need to make a DNS request:
-
-Application Layer: DNS
-Transport Layer: UDP
-Network Layer: IP (v4)
-Link Layer: Ethernet or Wireless LAN
-If the website uses HTTPS, the protocol stack includes multiple layers at the application level (both HTTP and TLS):
-
-Application Layer: HTTP and TLS
-Transport Layer: TCP
-Network Layer: IP (v4)
-Link Layer: Ethernet or Wireless LAN
-
-In web development the application of protocol stack is to secure web applications which involves using a set of communication protocols to establish secure connections and protect data transmitted over a network.
+A protocol stack refers to a group of protocols that are runnning concurrently that are employed for the implementation of network protocol suite.
 
 ## What are the different types of web servers, and how do they differ in terms of functionality and performance?
-### Apache HTTP ServerApache HTTP Server
-This is the most popular web server in the world developed by the Apache Software Foundation. Apache web server is an open source software and can be installed on almost all operating systems including Linux, Unix, Windows, FreeBSD, Mac OS X and more. About 60% of the web server machines run the Apache Web Server.
+Web servres are responsible for storing and serving web pages and applications to users over the internet. The are various types of web server are,
+    -Database Server: Handles storage and retrieval of data for web applications.
+    -Web Server: Serves web content and applications to clients over HTTP.
+    -Email Server: Manages the sending, receiving, and storage of email messages.
+    -Web Proxy Server: Acts as an intermediary between clients and other servers to enhance performance and security.
+    -DNS Server: Resolves domain names to IP addresses, allowing clients to access websites using human-readable names.
+    -FTP Server: Facilitates file transfer between a client and a server over the FTP protocol.
+    -File Server: Stores and manages files accessible to clients over a network.
+    -DHCP Server: Assigns IP addresses and network configuration to devices on a network.
+    -Cloud Server: Provides computing resources and services over the internet through a cloud infrastructure.
+    -Physical Server: A dedicated, physical machine that hosts various types of servers or services.
+    -Print Server: Manages print requests from clients to network printers.
+    -NTP Server: Synchronizes time across devices on a network using the Network Time Protocol.
+    -Radius Server: Handles remote authentication and authorization for network access.
+    -Syslog Server: Collects and stores system logs and events for network devices.
 
-
-### IIS ServerInternet Information Services
-The Internet Information Server (IIS) is a high performance Web Server from Microsoft. This web server runs on Windows NT/2000 and 2003 platforms ( and may be on upcoming new Windows version also). IIS comes bundled with Windows NT/2000 and 2003; Because IIS is tightly integrated with the operating system so it is relatively easy to administer it.
-
-You can have detailed information about this server at Miscrosoft IIS
-
-### lighttpd Serverlighttpd
-The lighttpd, pronounced lighty is also a free web server that is distributed with the FreeBSD operating system. This open source web server is fast, secure and consumes much less CPU power. Lighttpd can also run on Windows, Mac OS X, Linux and Solaris operating systems.
-
-
-### Sun Java System Web ServerSun Java System Web Server
-This web server from Sun Microsystems is suited for medium and large websites. Though the server is free it is not open source. It however, runs on Windows, Linux and Unix platforms. The Sun Java System web server supports various languages, scripts and technologies required for Web 2.0 such as JSP, Java Servlets, PHP, Perl, Python, Ruby on Rails, ASP and Coldfusion etc.
-
-
-### Jigsaw ServerJigsaw Server
-Jigsaw (W3C's Server) comes from the World Wide Web Consortium. It is open source and free and can run on various platforms like Linux, Unix, Windows, Mac OS X Free BSD etc. Jigsaw has been written in Java and can run CGI scripts and PHP programs.
 
 ## What is web hosting, and what are the different types of hosting services available for websites?
 In web development, hosting refers to the service of storing and making websites accessible on the internet. There are various types of hosting available, each catering to different needs and requirement
