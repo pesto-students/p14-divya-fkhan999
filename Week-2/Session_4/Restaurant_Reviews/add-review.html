@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Review</title>
+</head>
+
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./add-review.html">Add Reveiw</a>
+            <a href="./about.html">About</a>
+        </nav>
+    </header><br>
+    <main>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="name">Name?</label>
+                <input type="text" name="name" />
+            </div><br>
+            <div>
+                <label for="Restaurant">Restaurant?</label>
+                <select name="Restaurant">
+                    <option value="choose">Choose one...</option>
+                    <option value="Greek">Greek House</option>
+                    <option value="Street cafe">Street Cafe</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="date">Date of visit?</label>
+                <input type="date" name="date" id="date" />
+            </div><br>
+            <div>
+                <label for="rating">Rating?</label>
+                <input type="number" name="rating" id="rating" />
+            </div><br>
+            <div>
+                <label for="details">Details?</label>
+                <textarea name="details" id="details" cols="50" rows="3"></textarea>
+            </div><br>
+            <div>
+                <input type="submit" name="submit" id="submit">
+            </div>
+        </form>
+    </main><br>
+    <footer>© 2023 Restaurant Reveiw</footer>
+</body>
+
+</html>
