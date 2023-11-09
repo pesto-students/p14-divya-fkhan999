@@ -1,0 +1,46 @@
+body {
+    border: 3px solid green;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+caption {
+    width: 100%;
+    border: 1px solid green;
+    background-color: green;
+    height: 25px;
+    color: #dddddd;
+}
+
+h1{
+    font-size: 16px;
+    color: white;
+    margin: 15px;
+}
+
+#game-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#game-table td,
+#game-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+#game-table tr:nth-child(even) {
+    background-color: #11da4d;
+  }
+
+#game-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}

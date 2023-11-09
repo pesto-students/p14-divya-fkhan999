@@ -1,0 +1,59 @@
+*{
+    font-family:  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+}
+
+h1{
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+.container{
+    display: inline-block;
+    margin: 5px;
+    font-size: 13px;
+    align-items: center;
+}
+.offer{   
+    display: inline-block;      
+    margin: 4px;
+    text-align: center;
+    width: 400px;
+    border: 1px solid #cccccc;
+}
+.offerTitle{
+    font-size: 14px;
+    background-color: #00b3b3;
+    text-align: center;
+    color: #ffffff;
+    margin: none;
+    padding: 15px;
+}
+
+.offerContents{
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+.finalValue{
+    color: rgb(10, 147, 238);
+}
+
+td{
+    font-size: 12px;
+    color: #777777;
+}
+tr{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+table{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 0px;
+}
